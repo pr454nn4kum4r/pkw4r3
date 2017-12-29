@@ -32,6 +32,8 @@ Decryption:
 * Encrypted files are decrypted
 
 
-
+Check this out to have better understandiing of Ransomware and this framework.
+https://prasannakumar.in/infosec/creating-a-poc-crypto-ransomware-framework-1/
+Read this, to know what functionalities you can introduce
 
 
