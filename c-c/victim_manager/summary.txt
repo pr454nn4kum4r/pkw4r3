@@ -1,0 +1,2 @@
+Username,ProductID,UUID,CPUID,ComputerName,VictimFolder
+
