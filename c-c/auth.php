@@ -10,8 +10,6 @@ function check_authcode($auth_code){
 
 if(($auth_code_length>=25)&&($auth_code_length<=55)){
 
-	
-
 	$first_check_pos = floor($auth_code_length/2);
 	$second_check_pos = floor($auth_code_length/4);
 
