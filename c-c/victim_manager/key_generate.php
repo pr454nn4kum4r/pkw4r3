@@ -12,12 +12,10 @@ function key_generate($victim_id){
 
 	);
 
+   $res = openssl_pkey_new($config);
+   openssl_pkey_export($res, $privkey, NULL, $config);
 
-	$res = openssl_pkey_new($config);
-
-	openssl_pkey_export($res, $privkey, NULL, $config);
-
-	$privkey_file = $folder.'/'.$victim_id.".pem";
+    $privkey_file = $folder.'/'.$victim_id.".pem";
     $privkf = fopen($privkey_file, 'w');
     fwrite($privkf, $privkey);
     fclose($privkf);
