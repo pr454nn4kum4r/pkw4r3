@@ -17,7 +17,7 @@ Considering, this is just a POC not a malware and for easy readability, I have u
 *Copy "C&C" folder in Apache Web Server.
 *Copy "Ransomware" folder to Windows Machine
 
-##### Execution:
+#### Execution:
 *First run generate_dga.py and choose on of the domains and add it to Windows /etc/hosts linking to your attacking machine
 *Start Apache Web Server
 *Execute ransomware.py
