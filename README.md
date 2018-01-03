@@ -1,9 +1,7 @@
 # pkw4r3
-This is an attempt to create a POC of Crypto Ransomware. Please use this for only educational purposes only.
+This is an attempt to create a POC of Crypto Ransomware. Please use this for only educational purposes only. More details and explaination about the POC Crypto Ransomware Framework are defined in [Creating a POC Crypto Ransomware - 1](https://prasannakumar.in/infosec/creating-a-poc-crypto-ransomware-framework-1/ "Creating a POC Crypto Ransomware - 1")
 
-Testing POC:
-
-Requirements:
+#### Requirements:
 1) Apache+PHP Stack for C&C Server
 I have developed everything on Kali Machine as attacker machine. I didnt test this on Windows Machine.
 
