@@ -13,17 +13,17 @@ I understand that malware should not be dependent with third party requirements 
 Considering, this is just a POC not a malware and for easy readability, I have used Python and above packages.
 
 
-Installation:
+#### Installation:
 *Copy "C&C" folder in Apache Web Server.
 *Copy "Ransomware" folder to Windows Machine
 
-Execution:
+##### Execution:
 *First run generate_dga.py and choose on of the domains and add it to Windows /etc/hosts linking to your attacking machine
 *Start Apache Web Server
 *Execute ransomware.py
 *Your files in Desktop with given extensions are encrypted 
 
-Decryption:
+#### Decryption:
 * Browse summary.txt in victim_manager in Apache Web Server to see the folder related to the victim
 * Copy the .pem suffixed file to Victim Windows Machine
 * Run decrypt.py with .pem file as argument
@@ -31,7 +31,7 @@ Decryption:
 
 
 Check this out to have better understandiing of Ransomware and this framework.
-https://prasannakumar.in/infosec/creating-a-poc-crypto-ransomware-framework-1/
+[Creating a POC Crypto Ransomware - 1](https://prasannakumar.in/infosec/creating-a-poc-crypto-ransomware-framework-1/ "Creating a POC Crypto Ransomware - 1")
 Read this, to know what functionalities you can introduce
 
 
