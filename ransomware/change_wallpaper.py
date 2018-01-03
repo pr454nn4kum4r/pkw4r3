@@ -1,15 +1,10 @@
 #Credits to https://stackoverflow.com/a/37669111
 
 import os
-print os.getcwd()
-
 import struct
 import ctypes
 
-
 SPI_SETDESKWALLPAPER = 20
-
-
 
 def is_64_windows():
     """Find out how many bits is OS. """
