@@ -8,7 +8,7 @@ I have developed everything on Kali Machine as attacker machine. I didnt test th
 2) Windows Machine to act as Victim Machine
 Please avoid legacy machines that are below Windows XP. I am using WMI wrappers which might not work in those machines
 
-3)Python, Microsoft C++ 9.0, Pycrypto installed on Windows Machine
+3) Python, Microsoft C++ 9.0, Pycrypto installed on Windows Machine
 I understand that malware should not be dependent with third party requirements other than built-in features of the victim.
 Considering, this is just a POC not a malware and for easy readability, I have used Python and above packages.
 
