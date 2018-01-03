@@ -8,7 +8,7 @@ I have developed everything on Kali Machine as attacker machine. I didnt test th
 2) Windows Machine to act as Victim Machine
 Please avoid legacy machines that are below Windows XP. I am using WMI wrappers which might not work in those machines
 
-3) Python, Microsoft C++ 9.0, Pycrypto installed on Windows Machine
+3) Python, Microsoft Visual C++ Compiler for Python 2.7, Pycrypto installed on Windows Machine
 I understand that malware should not be dependent with third party requirements other than built-in features of the victim.
 Considering, this is just a POC not a malware and for easy readability, I have used Python and above packages.
 
@@ -18,7 +18,7 @@ Considering, this is just a POC not a malware and for easy readability, I have u
 *Copy "Ransomware" folder to Windows Machine
 
 #### Execution:
-*First run generate_dga.py and choose on of the domains and add it to Windows /etc/hosts linking to your attacking machine
+*First run generate_dga.py and choose one of the domains and add it to Windows /etc/hosts linking to your attacking machine
 *Start Apache Web Server
 *Execute ransomware.py
 *Your files in Desktop with given extensions are encrypted 
@@ -29,9 +29,11 @@ Considering, this is just a POC not a malware and for easy readability, I have u
 * Run decrypt.py with .pem file as argument
 * Encrypted files are decrypted
 
+For a working example, check the final workflow section in [Creating a POC Crypto Ransomware - 6](https://prasannakumar.in/infosec/creating-a-poc-crypto-ransomware-framework-1/ "Creating a POC Crypto Ransomware - 6")
 
-Check this out to have better understandiing of Ransomware and this framework.
+
+Check this out to have better understanding of Ransomware and this framework.
 [Creating a POC Crypto Ransomware - 1](https://prasannakumar.in/infosec/creating-a-poc-crypto-ransomware-framework-1/ "Creating a POC Crypto Ransomware - 1")
-Read this, to know what functionalities you can introduce
+
 
 
