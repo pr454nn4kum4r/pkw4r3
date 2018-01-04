@@ -29,6 +29,8 @@ Considering, this is just a POC not a malware and for easy readability, I have u
 * Run decrypt.py with .pem file as argument
 * Encrypted files are decrypted
 
+Note: Please delete the folder related to the victim in 'victims' folder for multiple testing in same environment.
+
 For a working example, check the final workflow section in [Creating a POC Crypto Ransomware - 6](https://prasannakumar.in/infosec/creating-a-poc-crypto-ransomware-framework-1/ "Creating a POC Crypto Ransomware - 6")
 
 
